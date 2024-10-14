@@ -86,4 +86,11 @@ class Board
     return [false, nil]
   end
 
+  def print_board
+    p ["1", "2", "3", "4", "5", "6", "7"]
+    @board.each do |row|
+      p row
+    end
+  end
+
 end
